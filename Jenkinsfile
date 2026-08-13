@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Cloning project from GitHub...'
                 git branch: 'main',
-                    url: 'YOUR_GITHUB_REPOSITORY_URL'
+                    url: 'https://github.com/itejasm/itejasm-jenkins-cicd-demo.git'
             }
         }
 
